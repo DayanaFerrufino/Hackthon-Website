@@ -1,0 +1,1065 @@
+html{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overscroll-behavior-x: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overscroll-behavior-x: none;
+    background-color: #ffffff;
+  }
+#Opening_Screen{
+    background-image: url(assets/background.1.png);
+    background-color:#ffffff;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+}
+.dog_logo{
+    width: 85px;
+    display: flex;
+    align-items: center;
+}
+.BulldogHacks{
+    color: white;
+    font-size: 2.3em;
+    font-family: 'Sunflower', sans-serif;
+    text-shadow: 2px 4px 4px rgba(255, 255, 255, 0.218);
+    padding-top: 2%;
+}
+
+
+
+
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #FFCE00; 
+    color: white; 
+    cursor: pointer; 
+    padding: .5%; 
+    padding-left: .8%;
+    padding-right: .8%;
+    border-radius: 10px; 
+    font-size: 1.5rem;
+  }
+  
+  #myBtn:hover {
+    background-color: #b49518; /* Add a dark-grey background on hover */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+.boxy{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 2vh;
+    align-items: center;
+}
+.cont{
+    display: flex;
+    gap:2%;
+    width:50%;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s ease;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.5rem;
+}
+
+li:hover{
+    color:rgb(240, 252, 76);
+}
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #02012900;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 1vh auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #ffffff;
+}
+
+
+.Center_Title{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    font-size: 3.5em;
+    margin-bottom: 0;
+    line-height: 130%;
+}
+.cont2 {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 6%;
+
+  }
+  
+  .Location {
+    top: -2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6%;
+    justify-content: center; 
+  }
+  
+  .child {
+    box-sizing: border-box; 
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+  }
+  
+.Icons{
+    width: 38px;
+}
+.specifics{
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.2em;
+    padding-top: 3%;
+    padding-left: 2.5%;
+}
+.image_con{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.torch_logo{
+    padding-top: 2%;
+    width: 200px;
+}
+.countdown_cont{
+
+    text-align: center;
+    margin-top: 5%;
+}
+.reg_dealine{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    justify-content: center;
+    letter-spacing: .1vw;
+    line-height: 30%;
+}
+.launchtime{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.launchtime div{
+    flex-basis: 100px;
+    gap: 80%;
+    padding-right: 2%;
+    padding-left: 2%;
+    line-height: 300%;
+}
+.launchtime div p{
+    font-size: 5em;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    color: white;
+    text-shadow: 3px 0px 20px rgba(219, 204, 255, 0.76);
+}
+.launchtime div span{
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+.btn_holder{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 6%;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    padding: 1.5em 3em;
+    border-radius: 2em;
+    background-color: #FFCE00;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: .05vw;
+
+}
+
+.button:hover{
+    background-color: #a38020;
+}
+
+
+
+#OurMission{
+    height: 820px;
+    width: 100%;
+    background-color: #000000;
+}
+.blur{
+    width: 100%;
+    box-shadow: 0 0 5vw 4vw #000000;
+}
+.cont3{
+    padding-top: 5%;
+    width: 100%;
+}
+.child2{
+   
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.Mission_cont{
+    width: 60%;
+    margin: 0 auto;
+    
+    margin-bottom: 5%;
+}
+.Prize_cont{
+  
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.prize_icons{
+    width: 220px;
+    display: inline-block;
+}
+.Mission_T{
+    font-size: 3rem;
+    font-family: 'Sunflower', sans-serif;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+.Mission_p{
+    font-size: 1.3rem;
+    font-family: 'Sunflower', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: rgb(236, 234, 234);
+    line-height: 200%;
+}
+.specifics2{
+    font-family: 'Sunflower', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+#OurSchdule{
+    height: 860px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.Opening_Page h5,
+.Schedule_ .nav-link,
+.Schedule_ .nav-link:hover,
+.Schedule_ .nav-link:focus,
+.Schedule_ .nav-link.active,
+.Schedule_ .nav-link.active:hover,
+.Schedule_ .nav-link.active:focus,
+.Schedule_ .small,
+.Schedule_ .fs-5,
+.Schedule_ h4,
+.Schedule_ p {
+  color: rgb(0, 0, 0);
+}
+.Schedule_ span{
+    color: black;
+    font-family: 'Sunflower', sans-serif;
+    font-weight: 600;
+}
+
+.Schedule_ h4{
+    font-family: 'Sunflower', sans-serif;
+    font-weight: 600;
+}
+#OurSchdule .li{
+    font-size: 1rem;
+}
+
+.Schedule_ .nav-link {
+  border: 3px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}
+
+.Schedule_ .nav-link:hover,
+.Schedule_ .nav-link:focus {
+  border-color: #FFCE00;
+  color: #FFCE00;
+}
+
+.Schedule_ .nav-link.active {
+  border-color: #FFCE00;
+  background-color: #FFCE00;
+}
+
+.Schedule_ .nav-link.active:hover,
+.Schedule_ .nav-link.active:focus {
+  background-color: #FFCE00;
+  color: rgb(0, 0, 0);
+}
+.agenda{
+    color:  #000000;
+}
+.Schedule_ li{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.cont5{
+    padding-top: 3%;
+    padding-bottom: 1%;
+    padding-left: 5%
+}
+.schedule_text{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Sunflower', sans-serif;
+    font-weight: 400;
+}
+.schedule_title{
+    font-size: 4rem;
+    color: #FFCE00!important;
+    font-family: 'Sunflower', sans-serif;
+    font-weight: 600;
+    letter-spacing: .5rem;
+    line-height: 80%;
+    
+}
+
+
+
+
+#Quotes_Section{
+    height: 750px;
+    width: 100%;
+
+}
+.cont7 {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+.people_{
+    flex: 0 0 40%; /* Adjust the width as needed */
+    margin-right: 20px;
+    width: 600px;
+    margin-top: -10%;
+}
+
+.cont6{
+    flex: 0 0 50%;
+    padding-top: 8%;
+    margin-left: 0%;
+}
+.cont6 p{
+    font-size: 1.8rem;
+    font-family: 'Sunflower', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.cont6 .span{
+    text-align: right;
+    font-weight: 600;
+}
+
+#OurFAQ{
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color:#000000;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+}
+
+
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+section {
+    position: relative;
+    top: 18%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container_FAQ {
+    
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    padding-top: 0;
+}
+
+.accord-item {
+    background-color: #FFCE00;
+    border-radius: .4rem;
+    margin-bottom: 1rem;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    box-shadow: .5rem 2px .5rem #010118;
+}
+
+.accord-link {
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Sunflower', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 2%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .1rem 0;
+}
+
+.accord-link ion-icon {
+    padding: .5rem;
+}
+
+.accord-link .up {
+    display: none;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 250ms;
+}
+
+.answer::before {
+    content: "";
+    position: absolute;
+    width: .6rem;
+    height: 90%;
+    background-color: #ffffff;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.answer p {
+    padding: 1rem;
+}
+
+.accord-item.active .answer {
+    max-height: 20rem;
+}
+
+.accord-item.active .accord-link .down {
+    display: none;
+}
+
+.accord-item.active .accord-link .up {
+    display: block;
+}
+.FAQ_T{
+    position: relative;
+    top: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 1%;
+}
+
+.FAQ_T p{
+    font-size: 3rem;
+    color: #ffffff;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+}
+
+.blue{
+    color: #5259FF;
+}
+
+#footer{
+    width: 100%;
+    height: 300px;
+    background-color: #000000;
+}
+
+.bowie_logo{
+    width: 250px;
+}
+.cont8{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 2%;
+}
+.cont8 p{
+    font-family: 'Sunflower', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: white;
+    padding-left: 20%;
+}
+.cont9{
+    width: 40%;
+}
+.icon_cont{
+    display: block; 
+    width: 50%;
+    margin-left: 5%;
+    padding-left: -5%;
+}
+.fa-brands{
+   padding-left: 5%;
+    
+}
+
+
+@media(max-width:1225px)and (min-width: 767px){
+
+    #Opening_Screen{
+        height: 900px;
+    }
+    #OurMission{
+        height: 920px;
+    } 
+    #OurSchdule{
+        height: 920px;
+        width: 100%;
+        background-color: #ffffff;
+    }
+
+    .hamburger{
+        display:block;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(10px) rotate(50deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-10px) rotate(-50deg);
+    }
+    .nav-menu{
+        position:fixed;
+        left: -100%;
+        top: 95px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #000000;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    li{
+        margin: 10px 0;
+        font-size: 1rem;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+    
+    
+    .BulldogHacks{
+        font-size: 2em;
+        padding-top: 6%;
+    }
+    .dog_logo{
+        width: 60px;
+    }
+    li{
+        margin: 8px 0;
+        font-size: 1.5rem;
+    }
+    .cont{
+        width: 40%;
+    }
+    .cont3{
+        padding-top: 15%;
+    }
+    .grid_cont{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0;
+    }
+    .Mission_cont{
+        
+        top: 25%;
+        grid-column: 2;
+        width: 110%;
+        padding-top: 20%;
+        margin-left: -15%;
+    }
+    .Prize_cont{
+      
+        grid-column: 1;
+        display: inline-block;
+        justify-content: center;
+        vertical-align: top;
+        width: 85%;
+    }
+    .child2{
+        margin-bottom: 10%;
+    }
+    .prize_icons{
+        width: 180px;
+        display: inline-block;
+    }
+    .Mission_T{
+        font-size: 2.5rem;
+        text-align: left;
+    }
+    .Mission_p{
+        font-size: 1.5rem;
+        text-align: left;
+        line-height: 180%;
+    }
+    .specifics2{
+        margin-top: 2%;
+    }
+    .tab-content{
+        margin-top: -10%;
+    }
+    .Schedule_ li{
+        font-size: 1.2rem;
+    }
+    .Schedule_ .col-lg-7 {
+        margin-top: 5%;
+    }
+    .cont5{
+        padding-bottom: 0%;
+        padding-left: 2%
+    }
+    .schedule_text{
+        font-size: 1.5rem;
+    }
+    .schedule_title{
+        font-size: 3rem;
+        letter-spacing: .5rem;
+        line-height: 80%;
+    }
+    
+
+    #Quotes_Section{
+        height: 600px;
+        width: 100%;
+    }
+    .cont7 {
+        margin-top: 0%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+    .people_{
+        flex: 0 0 90%;
+        margin-right: 20px;
+        width: 400px;
+        margin-top: 0%;
+    }
+
+    .cont6{
+        flex: 0 0 50%;
+        padding-top: 3%;
+        margin-left: 0%;
+    }
+    .cont6 p{
+        font-size: 1.5rem;
+        font-family: 'Sunflower', sans-serif;
+        font-weight: 200;
+        line-height: 105%;
+        text-align: left;
+    }
+    
+    .cont6 .span{
+        text-align: right;
+    }
+   
+    .FAQ_T{
+        margin-top: -5%;
+    }
+    .FAQ_T p{
+        font-size: 2rem;
+    }
+    
+
+    .bowie_logo{
+        width: 200px;
+    }
+    .cont8{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        padding-top: 2%;
+    }
+    .fa-brands{
+       padding-left: 5%;
+        
+    }
+    .accord-link {
+        font-size: 1.2rem;
+        padding: .1rem 0;
+    }
+
+}
+
+@media(max-width: 990px) and (min-width: 767px){
+    .people_{
+        flex: 0 0 90%;
+        margin-right: 20px;
+        width: 350px;
+        margin-top: 0%;
+    }
+    .cont7{
+        margin-top: 15%;
+    }
+    .bowie_logo{
+        width: 200px;
+    }
+    .cont8{
+        width: 90%;
+    }
+
+
+
+
+
+}
+@media(max-width: 766px){
+    #Opening_Screen{
+        height: 750px;
+    }
+    #OurMission{
+        height: 1000px;
+    } 
+    .hamburger{
+        display:block;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(10px) rotate(50deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-10px) rotate(-50deg);
+    }
+
+    .nav-menu{
+        position:fixed;
+        left: -100%;
+        top: 85px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #000000;
+        border-bottom: 1px solid #ffffff;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    li{
+        margin: 10px 0;
+        font-size: 1rem;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+    .BulldogHacks{
+        display: none;
+    }
+    .dog_logo{
+        width: 50px;
+    }
+    .cont{
+        width: 80%;
+    }
+    
+    .Center_Title{
+        font-size: 2em;
+        padding-bottom: 3%;
+    }
+    .specifics{
+        font-size: 1em;
+    }
+
+    .torch_logo{
+        width: 150px;
+    }
+    .Icons{
+        width: 30px;
+    }
+    .launchtime div p{
+        font-size: 3em;
+        font-weight: 600;
+    }
+    .launchtime div span{
+        font-size: 1em;
+    }
+    .launchtime div{
+        line-height: 200%;
+        padding-top: 3%;
+    }
+    .btn_holder{
+        margin-top: 13%;
+    }
+    .button{
+        padding: 1.5em 3em;
+        border-radius: 2em;
+        font-size: 1rem;
+    }
+    .image_con{
+        margin-top: 4%;
+        margin-bottom: 9%;
+    }
+    .cont2 {
+        margin-top: 2em;
+    } 
+    .Location {
+        top: -2%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 6%;
+        justify-content: center; 
+    }
+      
+    .child {
+        box-sizing: border-box; 
+        display: flex; 
+        align-items: center;
+        justify-content: center; 
+        text-align: center; 
+      }
+
+    .cont3{
+        display: inline-block;
+        justify-content: center;
+        padding-top: 10%;
+    }
+    .child2{
+        justify-content: center;
+        text-align: center;
+    }
+    .Prize_cont{
+        display:inline-block;
+        position: relative;
+        
+    }
+    .Mission_cont{
+        width: 95%;
+    }
+    .prize_icons{
+        width: 160px;
+    }
+    .Mission_T{
+        font-size: 1.7rem;
+    }
+    .Mission_p{
+        font-size: 1.2rem;
+        line-height: 140%;
+    }
+    .specifics2{
+        font-size: 1rem;
+    }
+    .tab-content{
+        margin-top: -20%;
+    }
+    .Schedule_ li{
+        font-size: 1rem;
+    }
+    .cont5{
+        margin-top: 15%;
+        padding-bottom: 0%;
+        padding-left: 3%
+    }
+    .schedule_text{
+        font-size: 1.5rem;
+    }
+    .schedule_title{
+        font-size: 3rem;
+        letter-spacing: .3rem;
+        line-height: 30%;
+    }
+    .Schedule_ .nav{
+        margin-bottom: 5%;
+    }
+
+    #OurSchdule{
+        height: 1100px;
+        width: 100%;
+        background-color: #ffffff;
+    }
+
+    #Quotes_Section{
+        height: 500px;
+        width: 100%;
+    }
+    .cont7 {
+        margin-top: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+      }
+      
+    .people_{
+        flex: 0 0 100%;
+        width: 70%;
+        min-height: 100px;
+        margin-left: 3%;
+    }
+    .image img {
+        content: url("assets/hack1.png"); 
+      }
+
+   
+    .cont6{
+        flex: 0 0 90%;
+        padding-top: 5%;
+        margin-left: 0%;
+    }
+    .cont6 p{
+        font-size: 1.3rem;
+        font-family: 'Sunflower', sans-serif;
+        font-weight: 400;
+        line-height: 95%;
+        text-align: center;
+    }
+    .cont6 .span{
+        text-align: center;
+    }
+    .FAQ_T p{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    #footer{
+        height: 400px;
+    }
+
+    .bowie_logo{
+        width: 160px;
+    }
+    .cont8{
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        padding-top: 2%;
+        text-align: center;
+    }
+    .cont8 p{
+        font-size: 1rem;
+        padding-left: 0%;
+    }
+    .cont9{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .icon_cont{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .accord-link {
+        font-size: 1rem;
+        padding: .1rem 0;
+    }
+
+
+    
+}
+
+@media(max-width: 320px){
+    #Quotes_Section{
+        height: 500px;
+        width: 100%;
+    }
+    #OurMission{
+        height: 1100px;
+    } 
+    #OurFAQ{
+        height: 1200px;
+    }
+    
+    .cont7 {
+        margin-top: 60%;
+      }
+    .FAQ_T p{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .accord-link {
+        font-size: 1rem;
+        padding: .1rem 0;
+    }
+}
